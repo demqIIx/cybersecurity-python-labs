@@ -1,0 +1,113 @@
+{
+    "summary": {
+        "totalCertificates": 8,
+        "expiredCertificates": 1,
+        "expiringSoon": 2,
+        "weakSignatureCertificates": 0,
+        "daysWarning": 30
+    },
+    "issuerStatistics": {
+        "Let's Encrypt": 2,
+        "DigiCert": 2,
+        "Legacy CA": 2,
+        "Sectigo": 2
+    },
+    "certificates": [
+        {
+            "domain": "ok.example.invalid",
+            "issuer": "Let's Encrypt",
+            "validFrom": "2026-08-01",
+            "validTo": "2026-11-29",
+            "keyLength": 2048,
+            "signatureAlgorithm": "sha256WithRSAEncryption",
+            "daysLeft": 61,
+            "expired": false,
+            "expiringSoon": false,
+            "weakSignature": false
+        },
+        {
+            "domain": "soon.example.invalid",
+            "issuer": "Let's Encrypt",
+            "validFrom": "2026-07-01",
+            "validTo": "2026-10-10",
+            "keyLength": 2048,
+            "signatureAlgorithm": "sha256WithRSAEncryption",
+            "daysLeft": 11,
+            "expired": false,
+            "expiringSoon": true,
+            "weakSignature": false
+        },
+        {
+            "domain": "expired.example.invalid",
+            "issuer": "DigiCert",
+            "validFrom": "2025-09-01",
+            "validTo": "2026-09-20",
+            "keyLength": 2048,
+            "signatureAlgorithm": "sha256WithRSAEncryption",
+            "daysLeft": -9,
+            "expired": true,
+            "expiringSoon": false,
+            "weakSignature": false
+        },
+        {
+            "domain": "weak-sha1.example.invalid",
+            "issuer": "Legacy CA",
+            "validFrom": "2026-01-01",
+            "validTo": "2027-01-01",
+            "keyLength": 2048,
+            "signatureAlgorithm": "sha1WithRSAEncryption",
+            "daysLeft": 94,
+            "expired": false,
+            "expiringSoon": false,
+            "weakSignature": false
+        },
+        {
+            "domain": "weak-md5.example.invalid",
+            "issuer": "Legacy CA",
+            "validFrom": "2026-02-01",
+            "validTo": "2027-02-01",
+            "keyLength": 1024,
+            "signatureAlgorithm": "md5WithRSAEncryption",
+            "daysLeft": 125,
+            "expired": false,
+            "expiringSoon": false,
+            "weakSignature": false
+        },
+        {
+            "domain": "ecdsa.example.invalid",
+            "issuer": "Sectigo",
+            "validFrom": "2026-06-01",
+            "validTo": "2026-12-01",
+            "keyLength": 256,
+            "signatureAlgorithm": "ecdsa-with-SHA256",
+            "daysLeft": 63,
+            "expired": false,
+            "expiringSoon": false,
+            "weakSignature": false
+        },
+        {
+            "domain": "warning-edge.example.invalid",
+            "issuer": "DigiCert",
+            "validFrom": "2026-06-15",
+            "validTo": "2026-10-27",
+            "keyLength": 2048,
+            "signatureAlgorithm": "sha256WithRSAEncryption",
+            "daysLeft": 28,
+            "expired": false,
+            "expiringSoon": true,
+            "weakSignature": false
+        },
+        {
+            "domain": "later.example.invalid",
+            "issuer": "Sectigo",
+            "validFrom": "2026-09-01",
+            "validTo": "2027-09-01",
+            "keyLength": 4096,
+            "signatureAlgorithm": "sha384WithRSAEncryption",
+            "daysLeft": 337,
+            "expired": false,
+            "expiringSoon": false,
+            "weakSignature": false
+        }
+    ]
+}

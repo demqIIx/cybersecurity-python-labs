@@ -1,0 +1,9 @@
+domain,issuer,validFrom,validTo,keyLength,signatureAlgorithm,daysLeft,expired,expiringSoon,weakSignature
+ok.example.invalid,Let's Encrypt,2026-08-01,2026-11-29,2048,sha256WithRSAEncryption,61,False,False,False
+soon.example.invalid,Let's Encrypt,2026-07-01,2026-10-10,2048,sha256WithRSAEncryption,11,False,True,False
+expired.example.invalid,DigiCert,2025-09-01,2026-09-20,2048,sha256WithRSAEncryption,-9,True,False,False
+weak-sha1.example.invalid,Legacy CA,2026-01-01,2027-01-01,2048,sha1WithRSAEncryption,94,False,False,False
+weak-md5.example.invalid,Legacy CA,2026-02-01,2027-02-01,1024,md5WithRSAEncryption,125,False,False,False
+ecdsa.example.invalid,Sectigo,2026-06-01,2026-12-01,256,ecdsa-with-SHA256,63,False,False,False
+warning-edge.example.invalid,DigiCert,2026-06-15,2026-10-27,2048,sha256WithRSAEncryption,28,False,True,False
+later.example.invalid,Sectigo,2026-09-01,2027-09-01,4096,sha384WithRSAEncryption,337,False,False,False
