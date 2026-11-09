@@ -1,0 +1,5 @@
+python -m labs.lab02.main demo
+
+python -m labs.lab02.main analyze --certs-data labs\lab02\data\data_v10\certificates.json --days-warning 30 --output-report labs\lab02\data\data_v10\report.json --format json
+
+python -m labs.lab02.main analyze --certs-data labs\lab02\data\data_v10\certificates.json --days-warning 30 --output-report labs\lab02\data\data_v10\report.csv --format csv

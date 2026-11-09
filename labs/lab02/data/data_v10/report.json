@@ -1,7 +1,7 @@
 {
     "summary": {
         "totalCertificates": 8,
-        "expiredCertificates": 1,
+        "expiredCertificates": 3,
         "expiringSoon": 2,
         "weakSignatureCertificates": 0,
         "daysWarning": 30
@@ -20,9 +20,9 @@
             "validTo": "2026-11-29",
             "keyLength": 2048,
             "signatureAlgorithm": "sha256WithRSAEncryption",
-            "daysLeft": 61,
+            "daysLeft": 20,
             "expired": false,
-            "expiringSoon": false,
+            "expiringSoon": true,
             "weakSignature": false
         },
         {
@@ -32,9 +32,9 @@
             "validTo": "2026-10-10",
             "keyLength": 2048,
             "signatureAlgorithm": "sha256WithRSAEncryption",
-            "daysLeft": 11,
-            "expired": false,
-            "expiringSoon": true,
+            "daysLeft": -30,
+            "expired": true,
+            "expiringSoon": false,
             "weakSignature": false
         },
         {
@@ -44,7 +44,7 @@
             "validTo": "2026-09-20",
             "keyLength": 2048,
             "signatureAlgorithm": "sha256WithRSAEncryption",
-            "daysLeft": -9,
+            "daysLeft": -50,
             "expired": true,
             "expiringSoon": false,
             "weakSignature": false
@@ -56,7 +56,7 @@
             "validTo": "2027-01-01",
             "keyLength": 2048,
             "signatureAlgorithm": "sha1WithRSAEncryption",
-            "daysLeft": 94,
+            "daysLeft": 53,
             "expired": false,
             "expiringSoon": false,
             "weakSignature": false
@@ -68,7 +68,7 @@
             "validTo": "2027-02-01",
             "keyLength": 1024,
             "signatureAlgorithm": "md5WithRSAEncryption",
-            "daysLeft": 125,
+            "daysLeft": 84,
             "expired": false,
             "expiringSoon": false,
             "weakSignature": false
@@ -80,9 +80,9 @@
             "validTo": "2026-12-01",
             "keyLength": 256,
             "signatureAlgorithm": "ecdsa-with-SHA256",
-            "daysLeft": 63,
+            "daysLeft": 22,
             "expired": false,
-            "expiringSoon": false,
+            "expiringSoon": true,
             "weakSignature": false
         },
         {
@@ -92,9 +92,9 @@
             "validTo": "2026-10-27",
             "keyLength": 2048,
             "signatureAlgorithm": "sha256WithRSAEncryption",
-            "daysLeft": 28,
-            "expired": false,
-            "expiringSoon": true,
+            "daysLeft": -13,
+            "expired": true,
+            "expiringSoon": false,
             "weakSignature": false
         },
         {
@@ -104,7 +104,7 @@
             "validTo": "2027-09-01",
             "keyLength": 4096,
             "signatureAlgorithm": "sha384WithRSAEncryption",
-            "daysLeft": 337,
+            "daysLeft": 296,
             "expired": false,
             "expiringSoon": false,
             "weakSignature": false

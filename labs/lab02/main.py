@@ -14,7 +14,7 @@ from labs.lab02.task2 import (
 
 
 def run_demo():
-    """Run Task 1 demonstration."""
+    """Run Task 1 demo"""
     print("=" * 60)
     print("LAB 02 - TASK 1 DEMO")
     print("=" * 60)
